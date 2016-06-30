@@ -70,6 +70,7 @@ public class Solution {
                     array[i] = array[i+1];
                     array[i+1] = temp;
                     change = true;
+                    continue;
                 }
             }
         }
